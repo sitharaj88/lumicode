@@ -1,0 +1,105 @@
+{
+    "name": "LumiCode Light",
+    "colors": {
+        "editor.background": "#FAFAFA",
+        "editor.foreground": "#2D2D2D",
+        "list.activeSelectionIconForeground": "#FFFFFF",
+        "editorLineNumber.foreground": "#9E9E9E",
+        "editorCursor.foreground": "#2D2D2D",
+        "editor.selectionBackground": "#BBDEFB",
+        "editor.lineHighlightBackground": "#FFF9C4"
+    },
+    "tokenColors": [
+        {
+            "name": "Comments",
+            "scope": [
+                "comment",
+                "punctuation.definition.comment"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#B0B0B0"
+            }
+        },
+        {
+            "name": "Keywords",
+            "scope": [
+                "keyword",
+                "storage"
+            ],
+            "settings": {
+                "foreground": "#007ACC"
+            }
+        },
+        {
+            "name": "Types",
+            "scope": [
+                "storage.type",
+                "support.type"
+            ],
+            "settings": {
+                "foreground": "#673AB7"
+            }
+        },
+        {
+            "name": "Strings",
+            "scope": "string",
+            "settings": {
+                "foreground": "#43A047"
+            }
+        },
+        {
+            "name": "Functions",
+            "scope": [
+                "entity.name.function",
+                "support.function"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#673AB7"
+            }
+        },
+        {
+            "name": "Variables",
+            "scope": [
+                "variable",
+                "support.variable"
+            ],
+            "settings": {
+                "foreground": "#673AB7"
+            }
+        },
+        {
+            "name": "Numbers, Constants",
+            "scope": [
+                "constant.numeric",
+                "constant.character",
+                "constant.language",
+                "support.constant",
+                "variable.language"
+            ],
+            "settings": {
+                "foreground": "#F57C00"
+            }
+        },
+        {
+            "name": "Classes",
+            "scope": [
+                "entity.name.type",
+                "entity.other.inherited-class",
+                "support.class"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#1565C0"
+            }
+        },
+        {
+            "name": "Punctuation",
+            "scope": "punctuation",
+            "settings": {
+                "foreground": "#9E9E9E"
+            }
+        }
+    ]
+}

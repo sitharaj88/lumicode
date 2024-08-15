@@ -1,0 +1,48 @@
+{
+  "name": "lumicode",
+  "displayName": "LumiCode",
+  "description": "A clean and vibrant VS Code theme with both light and dark modes, designed to reduce eye strain while providing a pleasant coding environment.",
+  "version": "1.0.0",
+  "publisher": "sitharaj",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sitharaj88/lumicode"
+  },
+  "icon": "images/icon.png", 
+  "keywords": [
+    "theme",
+    "VS Code",
+    "light",
+    "dark",
+    "lumicode",
+    "code",
+    "visual studio code"
+  ],
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "LumiCode Light",
+        "uiTheme": "vs",
+        "path": "./themes/LumiCode-light-color-theme.json"
+      },
+      {
+        "label": "LumiCode Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/LumiCode-dark-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "vsce": "^2.5.0"
+  }
+}
